@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <style>
+      
+        .navbar {
+            background-color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff7f00;
+        }
+
+        
+        section {
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+   
+        .download-button {
+            background-color: blue; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .explore-button {
+            background-color: #fff; 
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background-color: #0044ff; 
+        }
+
+        .explore-button:hover {
+            background-color: #eee;
+        }
+
+     
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            
+        }
+
+      
+        .card {
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-body h2 {
+            color: #333;
+        }
+
+        .card-body p {
+            color: #666;
+        }
+
+       
+        .project-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+      
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+       
+        .footer-images {
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center;
+        }
+
+       
+        .footer-images img {
+            margin: 0 10px;
+        }
+
+      
+        .background-blue {
+            background-color: #87CEEB; 
+            padding: 20px;
+            border-radius: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .accueil-image img {
+            background-color: #4b5cf8; 
+            padding: 10px; 
+            border-radius: 5px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rizfan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container-fluid background-blue">
+            <div class="row">
+                <div class="col-md-8 mt-5">
+                    <h2>Hi Everyone I am,<br/><strong>Rizfan Herlaya</strong></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Mauris vitae maecenas pellentesque tellus tempus integer. Nunc nisi 
+                        fermentum.</p>
+                    <div class="button-container">
+                        <button class="download-button">Download CV</button>
+                        <button class="explore-button">Explore More</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5"> 
+                    <div class="accueil-image background-blue ">
+                        <img class="accueil-image" id="ing" src="My project-1 (1) 2.png" alt="Image d'illustration" width="300">
+                    
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img width="400px" src="l1.jpg" alt="Image des compétences" > 
+                </div> 
+                <div class="col-md-6 mt-5">
+                    <div class="about-text mt-5">
+                        <p>About</p>
+                        <h2>About Me?</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="background-blue">  
+        <div class="row">
+            <div class="projet text-center">
+                <h2>Skill</h2>
+                <h1>What I am capable of?</h1>
+            </div>
+            <div class="col-md-2 mt-5">
+                <img class="project-image"   src="s1.jpg" alt="Image des compétences" width="102px" height="107px"> 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image"  src="s2.jpg" alt="Image des compétences" width="91" height="101" > 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image"   src="s3.jpg" alt="Image des compétences" width="101" height="101"> 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image"   src="s4.jpg" alt="Image des compétences"  width="134" height="89"> 
+            </div> 
+            <div class="col-md-2 mt-5">
+                <img class="project-image"   src="s5.jpg" alt="Image des compétences" width="166" height="97" > 
+            </div>
+            <div class="col-md-2 mt-5">
+                <img class="project-image"  src="s6.jpg" alt="Image des compétences" width="108"height="129"> 
+
+
+            </div>                             
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <p class="text-center">Projects</p>
+        <h1 class="text-center">What have made?</h1>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w1.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">Porfolio Website Design</h5>
+                <p class="card-text">Some quick example text to build
+                  Figma</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w2.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">LitterCycle Exchange</h5>
+                <p class="card-text">Lorem ipsum dolor sit ipsum doloramet consectetur.
+                  Live View
+                  Github
+                  Figma</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w3.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">LitterCycle Exchange</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.
+                  Live View
+                  Github
+                  Figma</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w4.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">PPDB SMK Telesandi Bekasi</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.
+                  Live View</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w4.jpg" class="card-img-top" alt="Project 5">
+              <div class="card-body">
+                <h5 class="card-title">PPDB SMK Telesandi Bekasi</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.
+                  Live View</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="w4.jpg" class="card-img-top" alt="Project 6">
+              <div class="card-body">
+                <h5 class="card-title">PPDB SMK Telesandi Bekasi</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.
+                  Live View</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br>
+    <section id="contact" class="background-blue">
+        <h2>contact</h2>
+        <h1>Get in touch</h1>
+        <p>rizfanher@gmail.com</p>
+        <div class="footer-images">
+            <img src="Link.jpg" alt="LinkedIn" title="LinkedIn">
+            <img src="ig.jpg" alt="Instagram" title="Instagram">
+            <img src="cop.jpg" alt="Github" title="Github">
+        </div>
+        <p>Copyright © 2023 Develop & Design by Rizfan Herlaya. Tous droits réservés.</p>
+    </section>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
